@@ -22,28 +22,28 @@
             {"content": "問い合わせる", "nextId": "contact"},
             {"content": "最初の質問に戻る", "nextId": "init"}
         ],
-        "question": "Webサイト細作についてですね。コチラからお問い合わせできます。"
+        "question": "Webサイト細作についてですね。下記からお問い合わせできます。"
     },
     "webapp": {
         "answers": [
             {"content": "問い合わせる", "nextId": "contact"},
             {"content": "最初の質問に戻る", "nextId": "init"}
         ],
-        "question": "Webアプリ開発についてですね。コチラからお問い合わせできます。"
+        "question": "Webアプリ開発についてですね。下記からお問い合わせできます。"
     },
     "import": {
         "answers": [
             {"content": "問い合わせる", "nextId": "contact"},
             {"content": "最初の質問に戻る", "nextId": "init"}
         ],
-        "question": "輸入ビジネスについてですね。コチラからお問い合わせできます。"
+        "question": "輸入ビジネスについてですね。下記からお問い合わせできます。"
     },
     "other_jobs": {
         "answers": [
             {"content": "問い合わせる", "nextId": "contact"},
             {"content": "最初の質問に戻る", "nextId": "init"}
         ],
-        "question": "その他についてですね。コチラからお問い合わせできます。"
+        "question": "その他についてですね。下記からお問い合わせできます。"
     },
     "fun": {
         "answers": [

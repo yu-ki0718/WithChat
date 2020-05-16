@@ -9,7 +9,7 @@ const useStyles = makeStyles(() => (
         "chats": {
             height: 400,
             padding: 0,
-            overflow: 'auto'
+            overflow: 'auto',
         }
 
     })
