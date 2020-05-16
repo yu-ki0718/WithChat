@@ -61,7 +61,6 @@ export default class FormDialog extends React.Component {
         })
     }
 
-     
     render() { 
         return(
             <Dialog
