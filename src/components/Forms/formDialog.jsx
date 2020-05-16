@@ -31,6 +31,7 @@ export default class FormDialog extends React.Component {
     inputDescription = (event) => {
         this.setState({description: event.target.value})
     }
+    
 
     submitForm = () => {
         const name = this.state.name
@@ -44,7 +45,7 @@ export default class FormDialog extends React.Component {
                   'お問い合わせ内容' + description
         }
 
-        const url = 'https://hooks.slack.com/services/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'
+        const url = 'https://hooks.slack.com/services/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'
 
         fetch(url, {
             method: 'POST',
@@ -61,7 +62,6 @@ export default class FormDialog extends React.Component {
     }
 
      
-
     render() { 
         return(
             <Dialog
@@ -73,15 +73,15 @@ export default class FormDialog extends React.Component {
                 <DialogTitle id="alert-dialog-title">お問い合わせフォーム</DialogTitle>
                     <DialogContent>
                         <TextInput 
-                            label={"お名前(必須)"} multilined={false} rows={1}
+                            label={"お名前"} multilined={false} rows={1}
                             value={this.state.name} type={"text"} onChange={this.inputName}
                         />
                         <TextInput 
-                            label={"メールアドレス(必須)"} multilined={false} rows={1}
+                            label={"メールアドレス(無くてOK)"} multilined={false} rows={1}
                             value={this.state.email} type={"email"} onChange={this.inputEmail}
                         />
                         <TextInput 
-                            label={"お問い合わせ内容(必須)"} multilined={false} rows={5}
+                            label={"お問い合わせ内容"} multilined={false} rows={5}
                             value={this.state.description} type={"text"} onChange={this.inputDescription}
                         />
                     </DialogContent>
