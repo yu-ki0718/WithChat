@@ -10,7 +10,7 @@
 
 # production
 /build
-/formDialog.jsx
+src/components/Forms/formDialog.jsx
 
 # misc
 .DS_Store
